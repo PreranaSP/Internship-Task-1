@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;900&family=Lato:wght@300;400;700&family=Lora:wght@600;700&family=Poppins:wght@300;400;500&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+.container{
+    white-space: nowrap;
+    color: white;
+    font-family: 'Lora', serif; 
+    font-weight: 500;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+   background-image: linear-gradient(
+	to right,
+	#5c312e 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#683735 100%
+	);
+   color:transparent;
+  -webkit-background-clip:text; 
+
+    
+  }
+  
+  h1:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+
+#line{
+    border: none; 
+    border-bottom:  2px solid #cb9b51 ;
+    width: 50%;
+    margin: auto;
+    
+
+}
+#timer{
+    color:#ffff;
+    background-image: linear-gradient(
+	to right,
+	#5c312e 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#683735 100%
+	);
+    border-radius: 10px;
+    
+}
